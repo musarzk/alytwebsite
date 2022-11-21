@@ -1,0 +1,115 @@
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+    background: linear-gradient(to top,rgb(33, 150, 218)20%, transparent);
+}
+.service {
+    display: block;
+    width: 150px;
+}
+.service:not(:last-child) {
+    margin-right: 20px;
+}
+.service .service-icon {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border: 1px solid #333;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    transition: background-size .3s;
+}
+.service .service-icon:hover {
+    background-size: 120%;
+}
+.service-icon.visa {
+    background-image: url(../img/visa.svg);
+}
+.service-icon.aviation {
+    background-image: url(../img/laptop.svg);
+}
+.service-icon.umbrella {
+    background-image: url(../img/beach-umbrella.svg);
+}
+.service-icon.ticket {
+    background-image: url(../img/ticket.svg);
+}
+.service-icon.tourist {
+    background-image: url(../img/tourist.svg);
+}
+.service-icon.reservation {
+    background-image: url(../img/reservation.svg);
+}
+.service .service-title {
+    width: 100%;
+    background-color: rgb(33, 150, 218);
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin: 0 auto;
+}
+.service-section {
+    padding-top: 82px;
+    
+}
+.service-section .main-title {
+    background-color: rgb(33, 150, 218);
+    text-align: left;
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 50px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px #fff, 3px 3px 1px #000;
+}
+.service-section .service-details {
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+}
+.service-disclaimer {
+    background-color: rgb(33, 150, 218);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 2px 2px 1px #fff, 4px 4px 1px #000;
+}
+.travel-quote {
+    font-size: 16px;
+    background-color: rgb(39, 99, 155);
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.vision-section header h1,
+.mission-section header h1 {
+    margin-left: 0;
+}
+.service-image {
+    position: relative;
+}
+.service-image,
+.service-image img {
+    width: 100%;
+}
+.service-image .caption {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-size: 14px;
+    padding: 0 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 2px;
+}

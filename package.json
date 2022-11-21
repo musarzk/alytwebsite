@@ -1,0 +1,15 @@
+{
+  "name": "alytweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d alyt"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://musarzk.github.io/alytwebsite",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
